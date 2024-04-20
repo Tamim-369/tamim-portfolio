@@ -41,7 +41,7 @@ const Projects = () => {
                   <div className="image">
                     <img
                       className={`project-image w-full h-full project-card-img `}
-                      src={item.image}
+                      src="/src/assets/projects/ibudget.png"
                       alt=""
                     />
                   </div>
