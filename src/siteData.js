@@ -10,7 +10,7 @@ export const projects = [
     title: "iBudget",
     description:
       "A simple web based budget calculator app that helps you keep track of your expenses and income.",
-    image: "../assets/projects/ibudget.png",
+    image: "/projects/ibudget.png",
     url: "https://ibudgetcalc.netlify.app/",
     github: "https://github.com/Tamim-369/react-budget-calculator",
     stack: ["react", "tailwind"],

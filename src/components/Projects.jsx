@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Element } from "react-scroll";
-import ibudget from "../assets/projects/ibudget.png";
 import "../styles/projects.css";
 import { projects } from "../siteData";
 import github from "../assets/github.png";
@@ -41,7 +40,7 @@ const Projects = () => {
                   <div className="image">
                     <img
                       className={`project-image w-full h-full project-card-img `}
-                      src="/src/assets/projects/ibudget.png"
+                      src={item.image}
                       alt=""
                     />
                   </div>
